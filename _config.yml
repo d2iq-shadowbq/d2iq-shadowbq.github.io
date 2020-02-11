@@ -40,7 +40,7 @@ email: smacgregor@d2iq.com
 avatar: assets/images/d2iq-me.png
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social settings
@@ -61,5 +61,5 @@ dribbble_url:
 google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-midnight
+theme: jekyll-theme-prologue
 collections: [sections]
