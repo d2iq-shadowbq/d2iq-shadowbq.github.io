@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if [[ -z "${GITHUB_TOKEN}" ]]; then
+    echo "ENV:GITHUB_TOKEN is not set, exiting. Please see documentation."
+    exit 1
+fi   
+curl -u d2iq-shadowbq:${GITHUB_TOKEN} -X POST https://api.github.com/repos/d2iq-shadowbq/d2iq-shadowbq.github.io/pages/builds -H "Accept: application/vnd.github.mister-fantastic-preview+json"
